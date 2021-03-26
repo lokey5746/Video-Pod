@@ -69,13 +69,13 @@ function TabOneNavigator() {
   return (
     <HomeStack.Navigator>
       <HomeStack.Screen
-        name="MovieDetailsScreen"
-        component={MovieDetailsScreen}
+        name="HomeScreen"
+        component={HomeScreen}
         options={{ headerShown: false }}
       />
       <HomeStack.Screen
-        name="HomeScreen"
-        component={HomeScreen}
+        name="MovieDetailsScreen"
+        component={MovieDetailsScreen}
         options={{ headerShown: false }}
       />
     </HomeStack.Navigator>
